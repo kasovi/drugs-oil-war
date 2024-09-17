@@ -1,0 +1,68 @@
+/* Sidebar fixed on the left */
+.sidebar {
+    position: fixed;
+
+    top: 80px; /* Height of header */
+    left: 0;
+    bottom: 0;
+
+    width: 200px;
+
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#sidebar-header {
+    font-size: 45px;
+    font-family: "New Amsterdam", sans-serif;
+    color: rgb(233, 68, 68);
+}
+
+#sidebar-sections {
+    padding-left: 20px;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 30px;
+}
+
+.sidebar-dropdown {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer; /* Indicate that it's clickable */
+    transition: color 0.3s ease, background-color 0.2s;
+    transition: display 1s ease;
+}
+
+.sidebar-dropdown.active .submenu {
+    display: block;
+}
+
+.section-title {
+    padding: 10px;
+}
+
+.submenu {
+    font-size: 25px;
+    display: none; /* Hidden by default */
+    margin-top: 5px;
+    padding-left: 10px;
+    border-left: 2px solid #ccc;
+}
+
+.dropdown-subsection {
+    padding: 5px;
+}
+
+.dropdown-subsection:hover {
+    color: rgb(161, 46, 46);
+}
+
+/* Additional styling */
+.sidebar-dropdown:hover {
+    color: rgb(233, 68, 68);
+    background-color: #302f2f;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drugs, Oil, War</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" 
+    rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <!-- Header section -->
+    <div id="header">
+        Drugs, Oil, War
+        <h3 id="header-subtitle">The United States and the World</h3>
+    </div>
+
+
+
+
+
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div id="sidebar-header">Chapters</div>
+        <div id="sidebar-sections">
+
+            <div class="sidebar-dropdown" data-content="home">
+                <div class="section-title">Home</div>
+            </div>
+
+
+            <div class="sidebar-dropdown" data-content="content-cambodia">
+                <div class="section-title">Cambodia</div>
+                <div class="submenu">
+                    <div class="dropdown-subsection" data-section="part1">Part 1</div>
+                    <div class="dropdown-subsection" data-section="part2">Part 2</div>
+                    <div class="dropdown-subsection" data-section="part3">Part 3</div>
+                </div>
+            </div>
+            
+            <div class="sidebar-dropdown" data-content="content-laos">
+                <div class="section-title">Laos</div>
+                <div class="submenu">
+                    <div class="dropdown-subsection" data-section="part1">Part 1</div>
+                    <div class="dropdown-subsection" data-section="part2">Part 2</div>
+                    <div class="dropdown-subsection" data-section="part3">Part 3</div>
+                </div>
+            </div>
+            
+            <div class="sidebar-dropdown" data-content="content-afghanistan">
+                <div class="section-title">Afghanistan</div>
+                <div class="submenu">
+                    <div class="dropdown-subsection" data-section="part1">Part 1</div>
+                    <div class="dropdown-subsection" data-section="part2">Part 2</div>
+                    <div class="dropdown-subsection" data-section="part3">Part 3</div>
+                </div>
+            </div>
+            
+            <div class="sidebar-dropdown" data-content="content-colombia">
+                <div class="section-title">Colombia</div>
+                <div class="submenu">
+                    <div class="dropdown-subsection" data-section="part1">Part 1</div>
+                    <div class="dropdown-subsection" data-section="part2">Part 2</div>
+                    <div class="dropdown-subsection" data-section="part3">Part 3</div>
+                </div>
+            </div>
+            
+            <div class="sidebar-dropdown" data-content="content-indonesia">
+                <div class="section-title">Indonesia</div>
+                <div class="submenu">
+                    <div class="dropdown-subsection" data-section="part1">Part 1</div>
+                    <div class="dropdown-subsection" data-section="part2">Part 2</div>
+                    <div class="dropdown-subsection" data-section="part3">Part 3</div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <!-- Main scrolling content area -->
+    <div class="maincontent">
+            <div>
+                <p>Drugs, Oil, War is a project that explores the relationship between the United States and the countries of Cambodia, Laos, Afghanistan, Colombia, and Indonesia. The project is divided into five chapters, one for each country. Each chapter is divided into three parts, each part focusing on a different aspect of the relationship between the United States and the country in question. The project uses data visualization to help tell the story of this relationship, highlighting key events and trends that have shaped the history of these countries.</p>
+            </div>   
+
+            <div id="visualization"></div>
+
+    </div>
+
+
+    <script src="scripts/visualization.js"></script>
+    <script src="scripts/sidebar.js"></script>
+
+</body>
+</html>
